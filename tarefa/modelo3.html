@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário com Diferentes Elementos</title>
+    </head>
+    <body>
+
+        <main>
+            <form action="action.html" method="post" enctype="multipart/form-data">
+                <h1>Formulário com Diferentes Elementos</h1>
+                <br>
+
+                <label>Selecione um ou mais arquivos: </label>
+                <br>
+                <input type="file" name="file" id="file" accept=".pdf, .doc, .docx, .odt, .xls, .pptx" multiple>
+                <br>
+                <br>
+                <hr>
+
+                <label>Escolha uma opção: </label>
+                <br>
+                <input type="radio" name="option1" id="option1" value="1" checked required>Opção 1
+                <br>
+                <input type="radio" name="option1" id="option2" value="2" required>Opção 2
+                <br>
+                <br>
+                <hr>
+
+                <label>Checkbox 1: </label>
+                <input type="checkbox" name="checkbox1" id="checkbox1" checked>
+                <br>    
+
+                <label>Checkbox 2: </label>
+                <input type="checkbox" name="checkbox2" id="checkbox2">
+
+                <br>
+                <br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </form>
+        </main>
+        
+    </body>
+</html>
