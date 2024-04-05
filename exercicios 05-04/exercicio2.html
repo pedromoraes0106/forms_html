@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercicio 2 e 3</title>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Formulário de Nacionalidade</h1>
+    </header>
+    <hr>
+
+    <main>
+        <section>
+            <form method="post">
+                <label>País de origem:</label>
+                <br>
+                <select name="estado" id="estado">
+                    <optgroup label="América">
+                        <Option value="sp">Brasil</Option>
+                        <Option value="sp">Canadá</Option>
+                        <Option value="sp">Estados Unidos</Option>
+                    </optgroup>
+                    <optgroup label="Ásia">
+                        <Option value="rs">Japão</Option>        
+                    </optgroup>
+                    <optgroup label="Europa">
+                        <Option value="rs">Alemanha</Option>        
+                    </optgroup>
+                </select>
+
+            <br><br>
+            <label>Adicione feedbacks sobre o formulário:</label>
+            <br>
+            <textarea name="comentario" id="comentario" cols="75" rows="8"></textarea>
+            <br><br>
+
+            <label>Número</label>
+            <input type="number" name="numero" id="numero" step="1" min="0" max="1000">
+            <br><br>
+
+            <input type="date" name="data" id="data">
+            <br><br>
+
+            <input type="submit" value="Enviar">
+
+            <form>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <center>
+            &copy; IBGE - 2024
+        </center>
+    </footer>
+</body>
+</html>
